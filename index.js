@@ -276,7 +276,7 @@ function grade(gradeScore){
     return `you got a C`;
   }else if(gradeScore >= 60 && gradeScore < 70){
     return `you got a D`;
-  }else if(gradeScore > 69){
+  }else if(gradeScore >= 69){
     return `you got an F`;
   }
 }
@@ -297,7 +297,7 @@ HINT - try looking up the .includes() method
 */
 
 
-function vowelCounter(/*add your code here*/) {
+function vowelCounter() {
   /*add your code here*/
 }
 
