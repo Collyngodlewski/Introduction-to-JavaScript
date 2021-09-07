@@ -276,12 +276,12 @@ function grade(gradeScore){
     return `you got a C`;
   }else if(gradeScore >= 60 && gradeScore < 70){
     return `you got a D`;
-  }else if(gradeScore >= 69){
+  }else if(gradeScore < 60){
     return `you got an F`;
   }
 }
 
-console.log(grade(92));
+console.log(grade(59));
 
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
