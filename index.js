@@ -19,6 +19,9 @@ Do the following:
 
    HINT: no function required
 */
+var  votingAge = 18;
+if (votingAge >= 18)
+console.log('true')
 
 
 
@@ -36,7 +39,6 @@ Do the following:
 
 
 
-
 /*
 Task 1c - Convert Strings to Numbers
 
@@ -48,6 +50,9 @@ Do the following:
    HINT: look up the Number method
 */
 
+var string = '1999';
+parseInt(string);
+console.log(string);
 
 
 
@@ -60,8 +65,8 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a, b){
+  return a * b;
 }
 
 
@@ -76,9 +81,14 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+var human = 3;
+var dog = 7;
+
+function dogYears(human, dog){
+  return human*dog;
 }
+
+
 
 
 
