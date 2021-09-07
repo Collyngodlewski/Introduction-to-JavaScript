@@ -20,8 +20,11 @@ Do the following:
    HINT: no function required
 */
 var  votingAge = 18;
-if (votingAge >= 18)
-console.log('true')
+if (votingAge >= 18){
+console.log(true);
+}else{
+  console.log(false);
+}
 
 
 
@@ -36,8 +39,16 @@ Do the following:
    HINT: no function required
 */
 
+let cat = 'boots';
+let behavior = 'bad';
 
+if(behavior === 'bad'){
+  cat = 'lulu';
+}else{
+  cat = 'boots';
+}
 
+console.log(cat);
 
 /*
 Task 1c - Convert Strings to Numbers
@@ -51,8 +62,7 @@ Do the following:
 */
 
 var string = '1999';
-parseInt(string);
-console.log(string);
+console.log(Number(string));
 
 
 
@@ -69,6 +79,7 @@ function multiply(a, b){
   return a * b;
 }
 
+console.log(multiply(15,4));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -81,13 +92,12 @@ Do the following:
  3. Return the newly calculated age
 */
 
-var human = 3;
-var dog = 7;
 
-function dogYears(human, dog){
-  return human*dog;
+function dogYears(age){
+  return age*7;
 }
 
+console.log(dogYears(23));
 
 
 
